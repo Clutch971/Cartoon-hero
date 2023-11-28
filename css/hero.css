@@ -1,0 +1,23 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+
+    header{
+        background-color: rgb(93, 7, 7);
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    header h1{
+        color: rgb(40, 39, 38);
+        font-family: 'Arial', Helvetica, sans-serif;
+        color: white;
+    }
+
+    header img{
+        border-radius: 110px;
+        width: 180px;
+        border: solid black 8px;
+    }
