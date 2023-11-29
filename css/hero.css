@@ -1,6 +1,10 @@
 body{
     background-color: lightblue;
     margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
 }
 
     header{
@@ -10,14 +14,76 @@ body{
         padding-bottom: 50px;
     }
 
+    h1, h2{
+        font-family: 'Vina Sans', sans-serif;
+        font-family: 'Lilita One','Vina Sans', sans-serif;
+        font-size: 50px;
+    }
+
+
     header h1{
         color: rgb(40, 39, 38);
-        font-family: 'Arial', Helvetica, sans-serif;
         color: white;
+        
     }
 
     header img{
         border-radius: 110px;
-        width: 180px;
-        border: solid black 8px;
+        width: 450px;
+
     }
+
+    main{
+        max-width: 800px;
+        margin: 20px;
+        padding: 0 20px;
+    }
+
+    main img{
+        max-width: 100%;
+    }
+
+    h2{
+        font-size: 35px;
+        color: rgb(120, 15, 15);
+        margin: 40px 0 10px;
+         
+    }
+
+    a{
+        color: #b0353d;
+    }
+
+    a:hover{
+        color: #ffffff;
+        background-color: #b0353d;
+        border-radius: 4px;
+    }
+
+    footer{
+        background-color: rgb(93, 7, 7);
+        text-align: center;
+        color: #ffffff;
+        padding: 50px;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+    footer a{
+        color: #ffffff;
+    }
+
+    footer a:hover{
+        opacity: .5;
+        background-color: transparent;
+         
+    }
+
+    p.caption{
+        color: #910d0d99;
+        font-style: italic;
+        margin: 0;
+    }
+
